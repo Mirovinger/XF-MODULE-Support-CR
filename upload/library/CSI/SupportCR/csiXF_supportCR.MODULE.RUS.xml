@@ -41,9 +41,9 @@ right={xen:phrase csiXF_supportCR_textAlignRight}</edit_format_params>
     <phrase title="csiXF_supportCR_textAlignLeft" version_id="1" version_string="1.0.0"><![CDATA[По левому краю]]></phrase>
     <phrase title="csiXF_supportCR_textAlignRight" version_id="1" version_string="1.0.0"><![CDATA[По правому краю]]></phrase>
     <phrase title="option_csiXF_supportCR_textAlign" version_id="1" version_string="1.0.0"><![CDATA[Выравнивание текста]]></phrase>
-    <phrase title="option_csiXF_supportCR_textAlign_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите выравнивание текста о поддержке "CYBERSPACE Industries" в соответствии с Вашим стилем.]]></phrase>
+    <phrase title="option_csiXF_supportCR_textAlign_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите выравнивание текста "При поддержке CYBERSPACE Industries" в соответствии с Вашим стилем.]]></phrase>
     <phrase title="option_group_csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Support CR]]></phrase>
-    <phrase title="option_group_csiXF_supportCR_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки отображения текста о поддержке "CYBERSPACE Industries".]]></phrase>
+    <phrase title="option_group_csiXF_supportCR_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки отображения текста "При поддержке CYBERSPACE Industries".]]></phrase>
   </phrases>
   <route_prefixes/>
   <style_properties/>
