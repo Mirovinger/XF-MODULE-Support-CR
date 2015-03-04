@@ -5,15 +5,15 @@
   License: LICENSE.ENG.txt / LICENSE.RUS.txt
 -->
 <language title="English (US)" date_format="M j, Y" time_format="g:i A" decimal_point="." thousands_separator="," language_code="en-US" text_direction="LTR" addon_id="csiXF_supportCR">
-  <phrase title="csiXF_supportCR_aTitle" version_id="1" version_string="1.0.0"><![CDATA[Дополнения, стили и статьи для XenForo]]></phrase>
-  <phrase title="csiXF_supportCR_serviceName" version_id="1" version_string="1.0.0"><![CDATA[CYBERSPACE Industries]]></phrase>
-  <phrase title="csiXF_supportCR_supportedBy" version_id="1" version_string="1.0.0"><![CDATA[При поддержке]]></phrase>
-  <phrase title="csiXF_supportCR_textAlignCenter" version_id="1" version_string="1.0.0"><![CDATA[По центру]]></phrase>
-  <phrase title="csiXF_supportCR_textAlignInherit" version_id="1" version_string="1.0.0"><![CDATA[Наследовать значение родителя]]></phrase>
-  <phrase title="csiXF_supportCR_textAlignLeft" version_id="1" version_string="1.0.0"><![CDATA[По левому краю]]></phrase>
-  <phrase title="csiXF_supportCR_textAlignRight" version_id="1" version_string="1.0.0"><![CDATA[По правому краю]]></phrase>
-  <phrase title="option_csiXF_supportCR_textAlign" version_id="1" version_string="1.0.0"><![CDATA[Выравнивание текста]]></phrase>
-  <phrase title="option_csiXF_supportCR_textAlign_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите выравнивание текста о поддержке "CYBERSPACE Industries" в соответствии с Вашим стилем.]]></phrase>
-  <phrase title="option_group_csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Support CR]]></phrase>
-  <phrase title="option_group_csiXF_supportCR_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки отображения текста о поддержке "CYBERSPACE Industries".]]></phrase>
+  <phrase title="csiXF_supportCR_aTitle" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[Дополнения, стили и статьи для XenForo]]></phrase>
+  <phrase title="csiXF_supportCR_serviceName" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[CYBERSPACE Industries]]></phrase>
+  <phrase title="csiXF_supportCR_supportedBy" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[При поддержке]]></phrase>
+  <phrase title="csiXF_supportCR_textAlignCenter" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[По центру]]></phrase>
+  <phrase title="csiXF_supportCR_textAlignInherit" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[Наследовать значение родителя]]></phrase>
+  <phrase title="csiXF_supportCR_textAlignLeft" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[По левому краю]]></phrase>
+  <phrase title="csiXF_supportCR_textAlignRight" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[По правому краю]]></phrase>
+  <phrase title="option_csiXF_supportCR_textAlign" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[Выравнивание текста]]></phrase>
+  <phrase title="option_csiXF_supportCR_textAlign_explain" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[Укажите выравнивание текста о поддержке "CYBERSPACE Industries" в соответствии с Вашим стилем.]]></phrase>
+  <phrase title="option_group_csiXF_supportCR" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Support CR]]></phrase>
+  <phrase title="option_group_csiXF_supportCR_description" addon_id="csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[Настройки отображения текста о поддержке "CYBERSPACE Industries".]]></phrase>
 </language>
