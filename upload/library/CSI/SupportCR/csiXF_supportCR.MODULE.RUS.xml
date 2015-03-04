@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright © 2015 CYBERSPACE Industries
+  Contacts: http://cyberspace.industries/
+  License: LICENSE.ENG.txt / LICENSE.RUS.txt
+-->
+<addon addon_id="csiXF_supportCR" title="(CSI/XF/MODULE) Support CR" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="csiXF_supportCR" display_order="99999999" debug_only="0"/>
+    <option option_id="csiXF_supportCR_textAlign" edit_format="select" data_type="string" can_backup="1">
+      <default_value>inherit</default_value>
+      <edit_format_params>inherit={xen:phrase csiXF_supportCR_textAlignInherit}
+center={xen:phrase csiXF_supportCR_textAlignCenter}
+left={xen:phrase csiXF_supportCR_textAlignLeft}
+right={xen:phrase csiXF_supportCR_textAlignRight}</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_supportCR" display_order="1"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="csiXF_supportCR_aTitle" version_id="1" version_string="1.0.0"><![CDATA[Дополнения, стили и статьи для XenForo]]></phrase>
+    <phrase title="csiXF_supportCR_serviceName" version_id="1" version_string="1.0.0"><![CDATA[CYBERSPACE Industries]]></phrase>
+    <phrase title="csiXF_supportCR_supportedBy" version_id="1" version_string="1.0.0"><![CDATA[При поддержке]]></phrase>
+    <phrase title="csiXF_supportCR_textAlignCenter" version_id="1" version_string="1.0.0"><![CDATA[По центру]]></phrase>
+    <phrase title="csiXF_supportCR_textAlignInherit" version_id="1" version_string="1.0.0"><![CDATA[Наследовать значение родителя]]></phrase>
+    <phrase title="csiXF_supportCR_textAlignLeft" version_id="1" version_string="1.0.0"><![CDATA[По левому краю]]></phrase>
+    <phrase title="csiXF_supportCR_textAlignRight" version_id="1" version_string="1.0.0"><![CDATA[По правому краю]]></phrase>
+    <phrase title="option_csiXF_supportCR_textAlign" version_id="1" version_string="1.0.0"><![CDATA[Выравнивание текста]]></phrase>
+    <phrase title="option_csiXF_supportCR_textAlign_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите выравнивание текста о поддержке "CYBERSPACE Industries" в соответствии с Вашим стилем.]]></phrase>
+    <phrase title="option_group_csiXF_supportCR" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Support CR]]></phrase>
+    <phrase title="option_group_csiXF_supportCR_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки отображения текста о поддержке "CYBERSPACE Industries".]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates/>
+  <public_template_modifications>
+    <modification template="footer" modification_key="csiXF_supportCR" description="Модификация шаблона &quot;footer&quot;" execution_order="99999999" enabled="1" action="str_replace">
+      <find><![CDATA[{xen:phrase extra_copyright}]]></find>
+      <replace><![CDATA[$0
+<div class="concealed" style="text-align:{$xenOptions.csiXF_supportCR_textAlign};">
+  <a title="{xen:phrase csiXF_supportCR_aTitle}" href="http://cyberspace.industries/" target="_blank">{xen:phrase csiXF_supportCR_supportedBy} {xen:phrase csiXF_supportCR_serviceName}</a>.
+</div>]]></replace>
+    </modification>
+  </public_template_modifications>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>
